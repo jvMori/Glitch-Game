@@ -13,7 +13,7 @@ public class Test : MonoBehaviour {
 
 
         print(PlayerPrefsManager.GetDifficulty());
-        PlayerPrefsManager.SetDifficulty(0.3f);
+        PlayerPrefsManager.SetDifficulty(1);
         print(PlayerPrefsManager.GetDifficulty());
 
     }
